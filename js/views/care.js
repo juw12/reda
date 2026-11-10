@@ -10,7 +10,7 @@ export function adviceText(advice) {
   const s = advice.now ? advice.now.sum : 0;
   switch (advice.code) {
     case 'no-plan': return t('aNoPlan');
-    case 'log-more': return t('aLogMore', { n: advice.need });
+    case 'log-more': return advice.need === 1 ? t('aLogMore1') : t('aLogMore', { n: advice.need });
     case 'controlled': return t('aControlled', { s });
     case 'controlled-steady': return t('aSteady', { s });
     case 'updose-unconfirmed': return t('aUpUnconfirmed');

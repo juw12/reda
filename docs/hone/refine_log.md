@@ -5,8 +5,8 @@
 - [x] Jeda/Cairn style: static PWA, warm paper, serif headings, bottom tabs, ID/EN, local-only, offline
 - [x] Reference photos for self-tests (freely licensed, credited)
 - [x] Tests (logic + flows + layout gates)
-- [ ] /hone loop (frozen rubric, baseline, judge, keep-best)
-- [ ] Publish GitHub repo + Pages
+- [x] /hone loop (frozen rubric, baseline, judge, keep-best)
+- [x] Publish GitHub repo + Pages
 - [ ] Sync: portfolio card, landing page, profile README, Obsidian, cairn vibe
 
 ## Assumptions
@@ -32,3 +32,12 @@ Soft criteria (0–10, anchors 4 / 7 / 10):
 - C3 Visual craft / not AI-looking (4: default cards; 7: coherent tokens + signature; 10: feels designed for this subject)
 - C4 Trust & safety (4: claims without source; 7: sources + red flags; 10: honest uncertainty everywhere it matters)
 - C5 Style fit with Jeda/Cairn family (4: unrelated; 7: same family; 10: sibling with own identity)
+
+## Scores (self-judged against the frozen rubric; no external council run)
+| round | change | gates | C1 | C2 | C3 | C4 | C5 | mean | kept |
+|---|---|---|---|---|---|---|---|---|---|
+| v0 | baseline build | 7/7 (48/48 tests, slop 0) | 7 | 7 | 7 | 8 | 8 | 7.4 | yes |
+| v1 | "1 more day" plural fix (ID/EN), SW cache bump | 7/7 | 7 | 7 | 7 | 8 | 8 | 7.4 | yes (no regression) |
+
+Notes: full-page desktop shots show the fixed rail border ending at viewport height; that is a screenshot artefact, not a layout bug.
+stop: plateau. Remaining gains (C1 to 9+, C2 to 9) need real-patient use and doctor feedback on the report, not more self-polish.

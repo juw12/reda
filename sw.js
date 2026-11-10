@@ -1,5 +1,5 @@
 // Offline cache: app shell + reference photos. Network-first for HTML, cache-first for the rest.
-const VERSION = 'reda-v1.0.0';
+const VERSION = 'reda-v1.0.1';
 const SHELL = [
   './',
   'index.html',
