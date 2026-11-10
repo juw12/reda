@@ -54,7 +54,7 @@ Reda gives general information, not a diagnosis. Up-dosing above one tablet a da
 
 ```bash
 python -m http.server 8000      # then open http://localhost:8000/?demo=1
-python tests/run_tests.py       # 52 checks: logic, flows, layout gates (needs playwright)
+python tests/run_tests.py       # 48 checks: logic, flows, layout gates (needs playwright)
 ```
 
 Static files only (vanilla ES modules, no build step). Design tokens and rules: [design.md](design.md).
